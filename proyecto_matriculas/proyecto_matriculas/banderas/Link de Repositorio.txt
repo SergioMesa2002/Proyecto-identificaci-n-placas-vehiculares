@@ -1,0 +1,7 @@
+Buenas tardes hago envió del taller de apollo server este taller fue desarrollado por
+Sergio Andres Mesa Benitez
+Dilan Bohórquez Mesa
+
+por favor descargar las dos carpetas fronted y backend y seguir las instrucciones que están en los readme.md
+
+https://github.com/SergioMesa2002/Api-con-Apollo-Server.git
