@@ -3,10 +3,7 @@ import re
 
 class Colombia:
     def __init__(self, archivo_excel):
-        """
-        Inicializa la clase Colombia cargando los rangos de matrículas desde un archivo Excel.
-        :param archivo_excel: Ruta al archivo Excel con los rangos de matrículas.
-        """
+
         self.nombre = "Colombia"
         self.rangos_departamentos = self.cargar_rangos(archivo_excel)
 
@@ -58,11 +55,7 @@ class Colombia:
         return False, {}
 
     def derivar_matricula(self, partes):
-        """
-        Realiza una derivación gramatical de la matrícula.
-        :param partes: Diccionario con los detalles de la matrícula.
-        :return: Lista con los pasos de la derivación gramatical.
-        """
+
         matricula = partes["matricula"]
         pasos = ["<matricula>", "<colombia>", "<prefijo><numeros>"]
         prefijo = matricula[:3]

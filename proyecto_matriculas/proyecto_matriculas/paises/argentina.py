@@ -42,7 +42,7 @@ class Argentina(Pais):
         patrones = {
             'mercosur': re.compile(r'^[A-Z]{2} \d{3} [A-Z]{2}$'),
             'nacional': re.compile(r'^[A-Z]{3} \d{3}$'),
-            'provincial': re.compile(r'^[A-Z] \d{6}$')
+            'provincial': re.compile(r'^[A-z] \d{6}$')
         }
         for tipo, patron in patrones.items():
             if patron.match(matricula):
